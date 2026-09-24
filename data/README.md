@@ -1,4 +1,4 @@
-# 📦 Dados — weatherAUS
+#  Dados — weatherAUS
 
 ## Origem
 
@@ -20,7 +20,7 @@ data/
 └── weatherAUS.csv
 ```
 
-> ⚠️ O arquivo **não está incluído** neste repositório por questões de tamanho e licença. É necessário baixá-lo manualmente.
+>  O arquivo **não está incluído** neste repositório por questões de tamanho e licença. É necessário baixá-lo manualmente.
 
 ## Descrição das Variáveis
 

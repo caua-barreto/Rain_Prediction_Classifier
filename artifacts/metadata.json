@@ -1,0 +1,55 @@
+{
+  "target": "RainTomorrow",
+  "model_name": "Completa c/ Nulos",
+  "model_class": "LogisticRegression",
+  "hyperparameters": {
+    "solver": "liblinear",
+    "penalty": "l1",
+    "C": 93.95337064926001,
+    "class_weight": null,
+    "max_iter": 1000,
+    "random_state": 14
+  },
+  "threshold_optimization": {
+    "method": "max_f1_via_precision_recall_curve",
+    "cv_folds": 5
+  },
+  "features": {
+    "numeric_robust": [
+      "MinTemp",
+      "MaxTemp",
+      "WindGustSpeed",
+      "WindSpeed9am",
+      "WindSpeed3pm",
+      "Humidity9am",
+      "Humidity3pm",
+      "Pressure9am",
+      "Pressure3pm",
+      "Temp9am",
+      "Temp3pm",
+      "Sunshine",
+      "Evaporation"
+    ],
+    "numeric_log1p": [
+      "Rainfall"
+    ],
+    "categorical_nominal": [
+      "Location",
+      "WindGustDir",
+      "WindDir9am",
+      "WindDir3pm",
+      "RainToday"
+    ],
+    "categorical_ordinal": [
+      "Cloud9am",
+      "Cloud3pm"
+    ]
+  },
+  "temporal_cutoff": "2017-01-01",
+  "historical_size": 133727,
+  "oot_size": 8466,
+  "target_rate_historical": 0.2252,
+  "target_rate_oot": 0.2082,
+  "dataset": "weatherAUS",
+  "training_date": "2026-09-23 22:51:30"
+}

@@ -1,0 +1,21 @@
+{
+  "threshold": 0.305,
+  "test": {
+    "accuracy": 0.8268,
+    "precision": 0.5999,
+    "recall": 0.6929,
+    "f1_score": 0.643,
+    "roc_auc": 0.8718,
+    "pr_auc": 0.7077,
+    "ks": 0.5761
+  },
+  "oot": {
+    "accuracy": 0.8344,
+    "precision": 0.5989,
+    "recall": 0.62,
+    "f1_score": 0.6093,
+    "roc_auc": 0.8602,
+    "pr_auc": 0.6693,
+    "ks": 0.5675
+  }
+}

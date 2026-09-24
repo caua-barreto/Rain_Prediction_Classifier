@@ -1,0 +1,29 @@
+# =========================================================
+# MANIPULAÇÃO E ANÁLISE DE DADOS
+# =========================================================
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0           # Essencial: teste KS de duas amostras (scipy.stats.ks_2samp)
+
+# =========================================================
+# VISUALIZAÇÃO DE DADOS
+# =========================================================
+matplotlib>=3.7.0       # Curvas ROC, PR e separação de scores
+seaborn>=0.12.0
+
+# =========================================================
+# MACHINE LEARNING & PIPELINE
+# =========================================================
+scikit-learn>=1.3.0     # LogisticRegression, Pipeline, ColumnTransformer, métricas (ROC-AUC, PR-AUC)
+joblib>=1.3.0           # Serialização do pipeline para artifacts/model.joblib
+
+# =========================================================
+# OTIMIZAÇÃO DE HIPERPARÂMETROS
+# =========================================================
+optuna>=3.0.0           # Tuning da Regressão Logística (notebook 02)
+
+# =========================================================
+# AMBIENTE DE DESENVOLVIMENTO & CONFIGURAÇÃO
+# =========================================================
+pyyaml>=6.0.0           # Leitura do config.yaml
+ipykernel>=6.20.0       # Execução dos notebooks no VS Code / Jupyter
